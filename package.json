@@ -1,0 +1,28 @@
+{
+  "name": "crudts",
+  "version": "1.0.0",
+  "main": "./src/server.ts",
+  "scripts": {
+    "dev": "tsnd ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "joi": "^17.12.2",
+    "md5": "^2.3.0",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/joi": "^17.2.3",
+    "@types/md5": "^2.3.5",
+    "@types/sequelize": "^4.28.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
